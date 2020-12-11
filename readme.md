@@ -14,18 +14,16 @@ Example:  https://ravi-internship-api.herokuapp.com/
 
 1. **CREATE/SIGNUP(Method -> POST) USERS --> /users** </br>
 Format --> JSON
-</br>
-Body: {
+Body: {</br>
     'name' : '',</br>
     'email' : '',</br>
     'dateOfBirth' : 'DD/MM/YYYY',</br>
     'phone': 0000000000,</br>
     'password': ''</br>
 }</br>
-</br>
 Example: https://ravi-internship-api.herokuapp.com/users   --> Add Body
 
-2. **READ USER(Method -> GET) --> /users/me** 
+1. **READ USER(Method -> GET) --> /users/me** 
 
 Example: https://ravi-internship-api.herokuapp.com/users/me
 
