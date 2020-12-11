@@ -24,36 +24,23 @@ Body: {</br>
 Example: https://ravi-internship-api.herokuapp.com/users   --> Add Body
 
 1. **READ USER(Method -> GET) --> /users/me** 
-
 Example: https://ravi-internship-api.herokuapp.com/users/me
-
 3. **UPDATE USER(Method -> PATCH) --> /users/me**
-Format --> JSON
-
-Body: {
-    'name of field': 'value of field'
-}
-
+Format --> JSON<br>
+Body: {<br>
+    'name of field': 'value of field'<br>
+}<br>
 Example: https://ravi-internship-api.herokuapp.com/users/me --> Add Body
-
 4. **DELETE USER(Method -> DELETE) --> /users/me**
-
 Example: https://ravi-internship-api.herokuapp.com/users/me
-
 5. **LOGIN USER(Method -> POST) --> /users/login**
-Format --> JSON
-
-Body: {
-    'email': '',
-    'password': ''
-}
-
+Format --> JSON<br>
+Body: {<br>
+    'email': '',<br>
+    'password': ''<br>
+}<br>
 Example: https://ravi-internship-api.herokuapp.com/users/login  --> Add Body
-
 6. **LOGOUT USER FROM CURRENT DEVICE(Method --> POST) --> /users/logout**
-   
 Example: https://ravi-internship-api.herokuapp.com/users/logout
-
 7. **LOGOUT USER FROM ALL DEVICES(Method --> POST) --> /users/logoutAll**
-   
 Example: https://ravi-internship-api.herokuapp.com/users/logoutAll
