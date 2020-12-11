@@ -13,7 +13,7 @@ Example:  https://ravi-internship-api.herokuapp.com/
 ## Endpoints
 
 1. **CREATE/SIGNUP(Method -> POST) USERS --> /users** </br>
-Format --> JSON
+Format --> JSON<br>
 Body: {</br>
     'name' : '',</br>
     'email' : '',</br>
