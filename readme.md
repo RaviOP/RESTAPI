@@ -13,6 +13,7 @@ Example:  https://ravi-internship-api.herokuapp.com/
 ## Endpoints
 
 1. **CREATE/SIGNUP(Method -> POST) USERS --> /users** </br>
+
 Format --> JSON<br>
 Body: {</br>
     'name' : '',</br>
@@ -26,16 +27,21 @@ Example: https://ravi-internship-api.herokuapp.com/users   --> Add Body
 2. **READ USER(Method -> GET) --> /users/me** 
 
 Example: https://ravi-internship-api.herokuapp.com/users/me
+
 3. **UPDATE USER(Method -> PATCH) --> /users/me**
+
 Format --> JSON<br>
 Body: {<br>
     'name of field': 'value of field'<br>
 }<br>
 Example: https://ravi-internship-api.herokuapp.com/users/me --> Add Body
+
 4. **DELETE USER(Method -> DELETE) --> /users/me**
 
 Example: https://ravi-internship-api.herokuapp.com/users/me
+
 5. **LOGIN USER(Method -> POST) --> /users/login**
+
 Format --> JSON<br>
 Body: {<br>
     'email': '',<br>
