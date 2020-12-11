@@ -12,17 +12,17 @@ Example:  https://ravi-internship-api.herokuapp.com/
 
 ## Endpoints
 
-1. **CREATE/SIGNUP(Method -> POST) USERS --> /users** 
+1. **CREATE/SIGNUP(Method -> POST) USERS --> /users** </br>
 Format --> JSON
-
+</br>
 Body: {
-    'name' : ''
-    'email' : ''
-    'dateOfBirth' : 'DD/MM/YYYY'
-    'phone': 0000000000
-    'password': ''
-}
-
+    'name' : '',</br>
+    'email' : '',</br>
+    'dateOfBirth' : 'DD/MM/YYYY',</br>
+    'phone': 0000000000,</br>
+    'password': ''</br>
+}</br>
+</br>
 Example: https://ravi-internship-api.herokuapp.com/users   --> Add Body
 
 2. **READ USER(Method -> GET) --> /users/me** 
